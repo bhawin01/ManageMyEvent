@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AdminActivity"
+    tools:showIn="@layout/app_bar_admin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome, Admin!"
+        android:textSize="45dp"
+        android:gravity="center"
+        android:textColor="#1899c8"
+        android:layout_marginTop="140dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Here, you can assign tasks, check for any requests, assign roles, and monitor volunteers."
+
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#1899c8"
+        android:layout_marginTop="240dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Swipe right to continue!"
+
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#1899c8"
+        android:layout_marginTop="380dp"/>
+
+</RelativeLayout>

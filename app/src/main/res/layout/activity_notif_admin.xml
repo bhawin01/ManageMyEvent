@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+
+        android:id="@+id/hide5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@drawable/shape_back"
+        android:layout_margin="15dp">
+        <TextView
+            android:id="@+id/tt5"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            />
+
+
+        <RelativeLayout
+            android:id="@+id/rr5"
+            android:layout_toRightOf="@+id/tt"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/com5"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:background="#FFFFFF"
+                android:layout_margin="5dp"
+                android:text="Approve"
+                android:textColor="#FF4AA1CC"/>
+
+            <Button
+                android:id="@+id/exten5"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:textColor="#FF4AA1CC"
+                android:layout_alignParentEnd="true"
+                android:background="#FFFFFF"
+                android:layout_below="@+id/com5"
+                android:layout_margin="5dp"
+                android:layout_alignParentRight="true"
+                android:text="Deny" />
+        </RelativeLayout>
+    </RelativeLayout>
+<!--
+    <RelativeLayout
+        android:id="@+id/hide1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@drawable/shapewhite"
+        android:layout_margin="15dp">
+        <TextView
+            android:id="@+id/tt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="'Print Posters'\nmarked complete"
+            android:textColor="#FF4AA1CC"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            />
+
+x
+
+
+        <RelativeLayout
+            android:id="@+id/rr1"
+            android:layout_toRightOf="@+id/tt1"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/com1"
+                android:layout_width="100dp"
+                android:textColor="#FFFFFF"
+                android:background="#FF4AA1CC"
+                android:layout_margin="5dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:text="Approve" />
+
+            <Button
+                android:id="@+id/pk"
+                android:layout_width="100dp"
+                android:textColor="#FFFFFF"
+                android:background="#FF4AA1CC"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/com1"
+                android:layout_alignParentRight="true"
+                android:text="Deny" />
+        </RelativeLayout>
+    </RelativeLayout> -->
+
+    <DatePicker
+        android:id="@+id/cal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:datePickerMode="calendar"></DatePicker>
+</LinearLayout>

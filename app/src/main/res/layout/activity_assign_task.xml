@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AssignTaskActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:text="Assign a task"
+        android:textColor="#1899c8"
+        android:textSize="40dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:hint="Enter volunteer role here" />
+
+    <EditText
+        android:id="@+id/taskValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:hint="Enter task"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/assignTask"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_height="wrap_content"
+        android:background="#1899c8"
+        android:layout_marginTop="400dp"
+        android:textColor="#FFFFFF"
+        android:onClick="Show1"
+        android:text="Assign Task" />
+
+</RelativeLayout>
+

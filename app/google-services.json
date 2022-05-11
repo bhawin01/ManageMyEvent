@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "322479118628",
+    "firebase_url": "https://samyak-2d9cd.firebaseio.com",
+    "project_id": "samyak-2d9cd",
+    "storage_bucket": "samyak-2d9cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322479118628:android:3b7dedf787deeba1",
+        "android_client_info": {
+          "package_name": "com.example.samyak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322479118628-9hask2dlg625mq5hd8n3ofe1vhtrrpd6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.samyak",
+            "certificate_hash": "c05b21e4918a12305b2990592c7cac6bf5c5b082"
+          }
+        },
+        {
+          "client_id": "322479118628-iotdlseq6l5a8s4ee3p57pghjl87gfkf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj35War4dJAtMkdb7Vv1AzOtiM6BwKYEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322479118628-iotdlseq6l5a8s4ee3p57pghjl87gfkf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
